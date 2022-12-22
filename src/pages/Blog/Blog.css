@@ -8,7 +8,7 @@
 .blogs .cards {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-left: 135px;
 }
@@ -29,7 +29,7 @@
   border-radius: 5px;
 }
 .blog img {
-  width: 350px;
+  width: 300px;
   border-radius: 5px;
 }
 .blog h2 {
@@ -45,7 +45,7 @@
   text-align: justify;
 }
 .blogBtn {
-  width: 345px;
+  width: 300px;
   color: rgb(52, 51, 51);
   font-size: 18px;
   border: 2px solid rgb(52, 51, 51);
@@ -68,7 +68,18 @@
 
 @media (max-width: 767px) {
   .blogs {
-    display: flex;
+    /* margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px; */
     flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .blogs .cards {
+    margin-left: 10px;
+  }
+  .blogCard {
+    margin: 10px;
   }
 }
