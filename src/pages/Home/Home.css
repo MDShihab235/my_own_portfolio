@@ -1,0 +1,92 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  color: #19e8c9;
+  margin-top: 100px;
+  align-items: center;
+}
+.homeContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 135px; */
+  margin-left: 10%;
+}
+.homeContent div h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.homeContent div p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.btn {
+  color: #19e8c9;
+  font-size: 20px;
+  border: 2px solid #19e8c9;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+.cbtn {
+  margin-left: 20px;
+}
+
+.profileImg {
+  display: flex;
+  justify-content: center;
+  /* border-radius: 10px; */
+}
+
+/* .profileImg img {
+  width: 150px;
+  border-radius: 20px;
+  justify-self: center;
+} */
+.profileImg img {
+  width: 150px;
+  /* border-radius: 5px; */
+  --g: 4px; /* the gap */
+  --b: 3px; /* border thickness*/
+  --c: #19e8c9; /* the color */
+
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(90deg, var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
+  background: var(--_g1) var(--_p, 25%) 0, var(--_g2) 0 var(--_p, 125%),
+    var(--_g1) var(--_p, 125%) 100%, var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b), var(--b) 200%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.profileImg img:hover {
+  --_p: 75%;
+  filter: grayscale(30%);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .home,
+  .homeContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeContent {
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .profileImg {
+    margin-top: 10%;
+    order: -1;
+  }
+}

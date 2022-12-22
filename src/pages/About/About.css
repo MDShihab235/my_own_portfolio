@@ -1,0 +1,99 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  color: #19e8c9;
+  margin-top: 100px;
+  align-items: center;
+}
+.aboutContent {
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 90px;
+}
+.aboutContent p {
+  font-size: 18px;
+  font-weight: 200;
+}
+.aboutHead {
+  display: flex;
+}
+.aboutHead h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.eline {
+  width: 700px;
+  height: 1px;
+  background-color: #19e8c9;
+  align-self: center;
+  margin: 10px;
+}
+.sline {
+  width: 98%;
+  height: 1px;
+  background-color: #19e8c9;
+  align-self: center;
+  margin: 5px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skills .last {
+  margin-right: 10px;
+}
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+.skill p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.progParent {
+  margin-left: 10px;
+  background-color: rgb(225, 225, 225);
+  width: 155px;
+  height: 10px;
+  align-self: center;
+  border-radius: 10px;
+}
+.progChild {
+  background-color: #0095ba;
+  height: 10px;
+  border-radius: 10px;
+}
+.midLine {
+  width: 1px;
+  height: 270px;
+  background-color: #19e8c9;
+  margin: 10px;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .about,
+  .aboutContent,
+  .skills {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .midLine {
+    width: 90%;
+    height: 1px;
+    background-color: #19e8c9;
+    margin: 10px;
+  }
+  .skill {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+  }
+}
