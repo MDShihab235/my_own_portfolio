@@ -85,6 +85,14 @@
     justify-content: center;
     margin: 0;
   }
+  .homeContent div h1 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .homeContent div p {
+    font-size: 14px;
+    font-weight: 200;
+  }
   .profileImg {
     margin-top: 10%;
     order: -1;
