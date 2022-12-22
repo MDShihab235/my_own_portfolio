@@ -55,10 +55,10 @@
 
 @media (max-width: 767px) {
   .projects {
-    margin-left: 30px;
+    /* margin-left: 30px;
     margin-right: 30px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; */
     display: flex;
     flex-direction: column;
   }
