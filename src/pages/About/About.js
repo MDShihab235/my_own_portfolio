@@ -27,6 +27,24 @@ const About = () => {
             projects, and trying to be a full-stack web developer or a software
             engineer.
           </p>
+          <div style={{ padding: "10px 0px" }}>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1IIokWlPCtkl1rqxPrKyYsi-u1GTBPRhI"
+              download="Mohammad-Shihab-Uddin-Resume"
+              className="navBtn"
+            >
+              Download Resume
+            </a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1jNWDdnZkWuPh7AONbOiqZWQvODQVfLZb"
+              download="Mohammad-Shihab-Certification"
+              className="navBtn"
+              style={{ marginLeft: "20px" }}
+            >
+              Technical Certification
+            </a>
+          </div>
+
           <div className="aboutHead">
             <h1>Skills</h1>
             <div className="sline"></div>

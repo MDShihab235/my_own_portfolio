@@ -23,7 +23,10 @@ const Home = () => {
               <br />I am learning and building myself as a Full-stack developer.
             </p>
             <div className="homeBtns">
-              <button className="btn kbtn">Know More</button>
+              <Link to="/about">
+                <button className="btn kbtn">Know More</button>
+              </Link>
+
               <Link to="/contact">
                 <button className="btn cbtn">Contact Me</button>
               </Link>
