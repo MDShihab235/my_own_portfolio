@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import portfolio from "../../assets/portfolio.png";
 import Email from "../../components/Email/Email";
 import SocialMedia from "../../components/SocialMedia/SocialMedia";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -23,7 +24,9 @@ const Home = () => {
             </p>
             <div className="homeBtns">
               <button className="btn kbtn">Know More</button>
-              <button className="btn cbtn">Contact Me</button>
+              <Link to="/contact">
+                <button className="btn cbtn">Contact Me</button>
+              </Link>
             </div>
           </div>
           <div className="profileImg">

@@ -3,7 +3,10 @@ import "./Services.css";
 import Email from "../../components/Email/Email";
 import Navbar from "../../components/Navbar/Navbar";
 import SocialMedia from "../../components/SocialMedia/SocialMedia";
-import service from "../../assets/service/service.jpg";
+import webdesign from "../../assets/service/service.jpg";
+import development from "../../assets/service/development.jpg";
+import ecommerce from "../../assets/service/ecommerce.jpg";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -16,44 +19,43 @@ const Services = () => {
         <div className="cards">
           <div className="serviceCard">
             <div className="service">
-              <img src={service} alt="service" />
+              <img src={development} alt="service" />
               <h2>Web Development</h2>
               <p>
-                Lorem ipsum dolor sit amet. Ut iure dolorem et nulla ratione in
-                consequatur illo 33 amet impedit. Vel laudantium dolor qui
-                consequatur omnis et officiis possimus in fuga excepturi et
-                eveniet quasi vel modi autem. Qui aspernatur corrupti ut
-                delectus quod ex sint amet.
+                Web development is the work of converting a design or
+                specification into a website. Web development is the process of
+                creating a website from scratch.
               </p>
-              <button className="serviceBtn">Contact</button>
+              <Link to="/contact">
+                <button className="serviceBtn">Contact</button>
+              </Link>
             </div>
           </div>
           <div className="serviceCard">
             <div className="service">
-              <img src={service} alt="service" />
+              <img src={webdesign} alt="service" />
               <h2>Web Design</h2>
               <p>
-                Lorem ipsum dolor sit amet. Ut iure dolorem et nulla ratione in
-                consequatur illo 33 amet impedit. Vel laudantium dolor qui
-                consequatur omnis et officiis possimus in fuga excepturi et
-                eveniet quasi vel modi autem. Qui aspernatur corrupti ut
-                delectus quod ex sint amet.
+                Web design is the process of designing a website for the web. It
+                is a process of combining the elements of a website to create a
+                functional and attractive website.
               </p>
-              <button className="serviceBtn">Contact</button>
+              <Link to="/contact">
+                <button className="serviceBtn">Contact</button>
+              </Link>
             </div>
           </div>
           <div className="serviceCard">
             <div className="service">
-              <img src={service} alt="service" />
+              <img src={ecommerce} alt="service" />
               <h2>Ecommerce Website</h2>
               <p>
-                Lorem ipsum dolor sit amet. Ut iure dolorem et nulla ratione in
-                consequatur illo 33 amet impedit. Vel laudantium dolor qui
-                consequatur omnis et officiis possimus in fuga excepturi et
-                eveniet quasi vel modi autem. Qui aspernatur corrupti ut
-                delectus quod ex sint amet.
+                We are working on full-stack MERN e-commerce web application
+                development for your any type of business.
               </p>
-              <button className="serviceBtn">Contact</button>
+              <Link to="/contact">
+                <button className="serviceBtn">Contact</button>
+              </Link>
             </div>
           </div>
         </div>

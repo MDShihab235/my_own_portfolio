@@ -1,7 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import Navbar from "../../components/Navbar/Navbar";
-import project from "../../assets/project/project.jpg";
+import scrap from "../../assets/project/scrap.png";
+import sales from "../../assets/project/sales.png";
+import expense from "../../assets/project/expense.png";
 import github from "../../assets/github.svg";
 import link from "../../assets/link.svg";
 import SocialMedia from "../../components/SocialMedia/SocialMedia";
@@ -18,62 +20,86 @@ const Projects = () => {
         <div className="cards">
           <div className="projectCard">
             <div className="project">
-              <img src={project} alt="project" />
-              <h2>Ecommerce Website</h2>
+              <a
+                href="https://scrap-into-creative-backend.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={scrap} alt="project" />
+              </a>
+              <h2>Creative Scrap Shop</h2>
             </div>
             <div className="iconSec">
-              <img src={github} alt="github" />
-              <img src={link} alt="link" />
+              <a
+                href="https://github.com/MDShihab235/scrap-into-creative"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="github" />
+              </a>
+              <a
+                href="https://scrap-into-creative-backend.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={link} alt="link" />
+              </a>
             </div>
           </div>
           <div className="projectCard">
             <div className="project">
-              <img src={project} alt="project" />
-              <h2>Ecommerce Website</h2>
+              <a
+                href="https://ecommerce-sales-admin-dashboard-frontend.onrender.com/dashboard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={sales} alt="project" />
+              </a>
+              <h2>Ecommerce Sales Dashboard</h2>
             </div>
             <div className="iconSec">
-              <img src={github} alt="github" />
-              <img src={link} alt="link" />
+              <a
+                href="https://github.com/MDShihab235/eCommerce-sales-dashboard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="github" />
+              </a>
+              <a
+                href="https://ecommerce-sales-admin-dashboard-frontend.onrender.com/dashboard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={link} alt="link" />
+              </a>
             </div>
           </div>
           <div className="projectCard">
             <div className="project">
-              <img src={project} alt="project" />
-              <h2>Ecommerce Website</h2>
+              <a
+                href="https://expense-tracker-app-3ygs.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={expense} alt="project" />
+              </a>
+              <h2>Expense Tracker app</h2>
             </div>
             <div className="iconSec">
-              <img src={github} alt="github" />
-              <img src={link} alt="link" />
-            </div>
-          </div>
-          <div className="projectCard">
-            <div className="project">
-              <img src={project} alt="project" />
-              <h2>Ecommerce Website</h2>
-            </div>
-            <div className="iconSec">
-              <img src={github} alt="github" />
-              <img src={link} alt="link" />
-            </div>
-          </div>
-          <div className="projectCard">
-            <div className="project">
-              <img src={project} alt="project" />
-              <h2>Ecommerce Website</h2>
-            </div>
-            <div className="iconSec">
-              <img src={github} alt="github" />
-              <img src={link} alt="link" />
-            </div>
-          </div>
-          <div className="projectCard">
-            <div className="project">
-              <img src={project} alt="project" />
-              <h2>Ecommerce Website</h2>
-            </div>
-            <div className="iconSec">
-              <img src={github} alt="github" />
-              <img src={link} alt="link" />
+              <a
+                href="https://github.com/MDShihab235/expense-tracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="github" />
+              </a>
+              <a
+                href="https://expense-tracker-app-3ygs.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={link} alt="link" />
+              </a>
             </div>
           </div>
         </div>

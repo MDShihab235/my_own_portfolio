@@ -28,6 +28,7 @@
   margin: 2px 2px 0 2px;
   border-radius: 5px;
 }
+
 .project img {
   width: 240px;
   border-radius: 5px;
@@ -36,6 +37,7 @@
   font-size: 20px;
   background-color: rgb(52, 51, 51);
   font-weight: 300;
+  padding: 5px;
 }
 .iconSec {
   display: flex;
@@ -44,11 +46,15 @@
   background-color: rgb(52, 51, 51);
   border-radius: 5px;
 }
+
 .iconSec img {
   width: 20px;
   margin: 10px;
   background-color: rgb(52, 51, 51);
   cursor: pointer;
+}
+.iconSec a {
+  background-color: rgb(52, 51, 51);
 }
 
 /* Responsive */
