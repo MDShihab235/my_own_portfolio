@@ -24,6 +24,9 @@
   font-size: 30px;
   font-weight: 300;
 }
+.aboutButtons {
+  display: flex;
+}
 .eline {
   width: 700px;
   height: 1px;
@@ -83,6 +86,9 @@
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
+    flex-direction: column;
+  }
+  .aboutButtons {
     flex-direction: column;
   }
   .midLine {
