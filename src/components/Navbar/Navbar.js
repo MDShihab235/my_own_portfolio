@@ -45,7 +45,7 @@ const Navbar = () => {
         </button>
       </ul>
       <a
-        href="https://drive.google.com/uc?export=download&id=1-mZytBME8XVtm8e8QG7SgWSxSb3WNBfS"
+        href="https://drive.google.com/uc?export=download&id=1ltjf3CuyYHSPkhC7lmVwSQIwHRo-mVM4"
         download="Mohammad-Shihab-Uddin-Resume"
         className="navBtn"
       >
